@@ -62,3 +62,11 @@ This project demonstrates the following OOP concepts:
 4. View updated balances after each operation
 
 ---
+
+👨‍💻 Author
+
+Name: Ziyad Bohdor
+
+⭐ Note
+
+This project is part of my journey learning Dart and Flutter development, focusing on Object-Oriented Programming (OOP) and building real-world systems.
