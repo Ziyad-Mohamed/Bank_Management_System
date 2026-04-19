@@ -49,12 +49,13 @@ This project demonstrates the following OOP concepts:
 
 ---
 
+
 ---
 
 ## 🚀 How It Works
 
 1. Create account objects (Saving or Current)
-2. Add accounts to the system
+2. Add them to the system
 3. Perform operations:
    - Deposit
    - Withdraw
@@ -63,10 +64,50 @@ This project demonstrates the following OOP concepts:
 
 ---
 
-👨‍💻 Author
+## 🔥 Key Logic Highlights
 
-Name: Ziyad Bohdor
+### 💡 Overdraft System (Current Account)
+- Allows withdrawal beyond balance
+- Uses overdraft limit
+- Tracks remaining borrowed amount
 
-⭐ Note
+### 💡 Polymorphism in Withdraw
+Each account type has its own logic:
 
-This project is part of my journey learning Dart and Flutter development, focusing on Object-Oriented Programming (OOP) and building real-world systems.
+- Saving Account → strict balance check  
+- Current Account → allows overdraft  
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me understand:
+
+- How real-world systems are modeled in software
+- How OOP improves code organization
+- How inheritance reduces duplication
+- How polymorphism enables flexibility
+- How to design a small system from scratch
+
+---
+
+## 🚀 Future Improvements
+
+- Add Bank class to manage all accounts centrally
+- Add transaction history system
+- Add file storage (save/load data)
+- Add login / PIN system
+- Improve console UI with menus
+
+---
+
+## 👨‍💻 Author
+
+- Name: **Ziyad Bohdor**
+- Purpose: Learning Dart & OOP through a real-world project
+
+---
+
+## ⭐ Note
+
+This project is part of a learning journey in software development and problem-solving using Dart and Object-Oriented Programming.
